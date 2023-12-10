@@ -1,0 +1,76 @@
+/* ChessBoard.css */
+
+.chessboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  border: 2px solid black;
+}
+
+.board-middle {
+  display: flex;
+}
+
+.board-notation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-notation {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+}
+
+.vertical-notation {
+  display: flex;
+  flex-direction: column; /* Ensure vertical layout */
+}
+
+.notation {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Corrected class names here */
+.horizontal-notation .notation,
+.vertical-notation .notation {
+  border-bottom: 1px solid #888;
+  border-top: 1px solid #888;
+}
+
+.corner {
+  width: 50px;
+  height: 50px;
+}
+
+/* Add styles for buttons */
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+
+
+
+/* Add the same .board-square styles from previous steps */
+
+
