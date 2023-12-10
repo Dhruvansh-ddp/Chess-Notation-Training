@@ -143,4 +143,8 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
+<<<<<<< HEAD
 .pnp.*
+=======
+.pnp.*
+>>>>>>> 3b8afed70233c82e5c100d5ce4d159562e5c51c0
